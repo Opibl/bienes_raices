@@ -2,7 +2,7 @@
 
 function conectarDB() {
     // Cadena de conexión: host, puerto, nombre de base de datos, usuario y contraseña
-    $conexion = pg_connect("host=localhost port=5433 dbname=bienesraices_crud user=postgres password=pedroignacio0");
+    $conexion = pg_connect("host=localhost port=5432 dbname=bienesraices_crud user=postgres password=x-xx-x");
 
     // Verificar si la conexión fue exitosa
     if(!$conexion) {
